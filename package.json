@@ -1,0 +1,20 @@
+{
+  "name": "Nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {
+    "chromedriver": "^97.0.3",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

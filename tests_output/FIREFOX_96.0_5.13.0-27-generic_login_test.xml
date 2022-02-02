@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="login_test"
+    errors="0" failures="0" hostname="" id="" package="login_test" skipped="0"
+    tests="4" time="15.94" timestamp="">
+  
+    <testcase name="case 1 : Connect to your Netflix account" classname="login_test" time="7.875" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="case : get error message for not entering email" classname="login_test" time="6.309" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="case : get error message for password too short" classname="login_test" time="0.3370" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="case : get error message for incorrect password" classname="login_test" time="1.414" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="ecosia"
+    errors="1" failures="0" hostname="" id="" package="ecosia" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] unknown error: Chrome failed to start: exited normally.
+   (unknown error: DevToolsActivePort file doesn&#39;t exist)
+   (The process started from chrome location /snap/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/home/seijuro/projets/cours/Nightwatch/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  More info might be available in the log file: /home/seijuro/projets/cours/Nightwatch/logs/ecosia_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [WebDriverError] unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn&#39;t exist)
+  (The process started from chrome location /snap/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)"><![CDATA[
+      WebDriverError: An error occurred while creating a new ChromeDriver session: [WebDriverError] unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn&#39;t exist)
+  (The process started from chrome location /snap/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+    at Object.throwDecodedError (/home/seijuro/projets/cours/Nightwatch/node_modules/selenium-webdriver/lib/error.js:539:15)
+    at parseHttpResponse (/home/seijuro/projets/cours/Nightwatch/node_modules/selenium-webdriver/lib/http.js:647:13)
+    at Executor.execute (/home/seijuro/projets/cours/Nightwatch/node_modules/selenium-webdriver/lib/http.js:573:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Demo test ecosia.org" classname="ecosia">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

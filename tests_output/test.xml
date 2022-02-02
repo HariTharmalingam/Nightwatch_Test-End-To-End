@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│    Error: GeckoDriver cannot be found in the current project.                                      │
+│                                                                                                    │
+│    You can either install geckodriver from NPM:                                                    │
+│       npm install geckodriver --save-dev                                                           │
+│                                                                                                    │
+│    or download it from https://github.com/mozilla/geckodriver/releases,                            │
+│   extract the archive and set &#34;webdriver.server_path&#34; config option to point to the binary file.   │
+│                                                                                                    │
+│                                                                                                    │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+    </system-err>
+  
+
+    
+    <error message="GeckoDriver cannot be found in the current project."><![CDATA[
+      Error: GeckoDriver cannot be found in the current project.
+    at FirefoxServiceBuilder.getStartupErrorMessage (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:193:26)
+    at new BaseService (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:77:18)
+    at new FirefoxServiceBuilder (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/firefox.js:4:1)
+    at GeckoDriver.createDriverService (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:168:28)
+    at GeckoDriver.createSession (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:213:18)
+    at NightwatchClient.createSession (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/core/client.js:633:27)
+    at TestSuite.createSession (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/testsuite/index.js:402:24)
+    at TestSuite.startTestSuite (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/testsuite/index.js:416:17)
+    at TestSuite.runTestSuite (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/testsuite/index.js:441:17)
+    at TestSuite.run (/home/seijuro/.nvm/versions/node/v14.4.0/lib/node_modules/nightwatch/lib/testsuite/index.js:891:17)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="case one: navigate to netflix.com" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
